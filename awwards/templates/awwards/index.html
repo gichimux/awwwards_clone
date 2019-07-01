@@ -1,9 +1,11 @@
-{% extends 'Moringa_Project_Awards/base.html' %}
+{% extends 'awwards/base.html' %}
 {% block content %}
 <div class="container-fluid">
     <div>
-        <h4 class="text-center heading">Sites of the day</4>
-    </div>
+    <br>
+        <h4 class="text-center heading" style="font-family: 'Acme', sans-serif;
+font-size: 30px; color:#501F96;">Sites of the day</4>
+    </div><br>
     <div class="row">
         {% for image in all_images%}
 
@@ -24,7 +26,7 @@
                     <p class="card-text">{{image.details}}</p>
                     <p><a href="{{image.link}}">Live Project Link</a></p>                    
                     
-                    <a href="{% url 'project_review' image.pk %}" class="btn btn-danger btn-md">Review Project</a>
+                    <a href="{% url 'project_review' image.pk %}" class="btn btn-success btn-md">Review Project</a>
 
                 </div>
             </div>
@@ -45,7 +47,8 @@
 
         {% empty %}
         <div class="row">
-            <h1 class="text-center"> No Images Yet</h1>
+            <h1 class="text-center" style="font-family: 'Acme', sans-serif;
+font-size: 30px; color:#501F96;"> No Projects Yet</h1>
         </div>
         {% endfor %}
     </div>
@@ -53,5 +56,13 @@
     <div class="row">
     </div>
     
-</div>
+</div><br>
+<section id="footer" style="background-color: #776;">
+		<div class="container">
+		
+          <p style="text-align: center;font-family: 'Acme', sans-serif; font-size: 25px;color:#fff;
+					">&#169; George Mwai 2019</p>
+        </div> 
+      </div>
+ </section>
 {% endblock %}
