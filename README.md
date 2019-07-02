@@ -23,7 +23,7 @@ A django application that enables the user to post their web applications and ha
 
 ### Project Setup instructions
 Use the following commands to use this project.
-- git clone `https://gith`
+- git clone `https://github.com/gichimux/awwwards_clone`
 - install `python 3.6`
 - Install [Postgresql](https://www.postgresql.org/download/)
 - cd The_Gram
@@ -56,7 +56,7 @@ The different technologies that were used to develop this program include:
 ```
 
 ### Link to live site
-Here is a link to the [live site]
+Here is a link to the [live site](https://awwwards-clone99.herokuapp.com/)
 ### Contact Me
 If you have any suggestions, additions or modifications on this project you can reach me via my email: njuguna13@gmail.com
 
