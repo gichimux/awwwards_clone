@@ -7,7 +7,7 @@ this application is a clone of the popular project diplaying site, Awwwards
 [George Mwai](https://github.com/gichimux)
 
 ## Description
-A django application that enables the user to post their web applications and have other users vote based on predefined metrics. 
+A django application that enables the user to post their web applications and have other users vote for the projects based on predefined metrics of design, usability and content. 
 
 ## Behaviour Driven Development(BDD)
 | Behaviour                                                                                    | Input                                       | Output                                                                                             |
